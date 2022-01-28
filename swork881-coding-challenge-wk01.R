@@ -30,22 +30,34 @@ library(tidyverse)
 
 library(tidymodels)
 
-# read data in (the data file is LHS_exercise.csv inside the data folder)
-data01<- read_csv("")
+# packages installed and libraries loaded
 
-read_csv()
+
+
+# read data in (the data file is LHS_exercise.csv inside the data folder)
+data01<- read_csv("LHS_exercise.csv")
+
+lhs::raw_df<- read_csv("Data")
 
 # inspect the data, you can use for example glimpse() to answer the following questions: 
 glimpse (data01)
 
+glimpse (dara01)
+
+glimpse(data01)
+
+glimpse(data01)
+
 #How many variables are there in the data? (hint: check your environment window)
+7
 
 #How many observations are there?
 
-
+268
 
 # What Latino Subgroups are represented in the data? Indicate their frequency 
 ftable() #hint use latino_subgroup variable
+
 
 ## provide your answer below ##
 
