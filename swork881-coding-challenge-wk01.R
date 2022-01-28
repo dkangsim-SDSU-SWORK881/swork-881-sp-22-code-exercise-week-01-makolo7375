@@ -28,9 +28,12 @@ library(tidymodels)
 
 library(tidyverse)
 
+library(tidymodels)
 
 # read data in (the data file is LHS_exercise.csv inside the data folder)
 data01<- read_csv("")
+
+read_csv()
 
 # inspect the data, you can use for example glimpse() to answer the following questions: 
 glimpse (data01)
